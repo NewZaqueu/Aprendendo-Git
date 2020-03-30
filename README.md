@@ -21,20 +21,24 @@ GitHub é uma plataforma opensource online onde todos os repositórios podem ser
 <h2>Lista de Comandos(Em contrução)</h2>
 
 <ul>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
-    <li>git </li>
+    <li>git status <p>Consultar alterações realizadas no projeto que ainda não estão no stage area</p></li>
+    <li>git diff <p>Consultando histórico de alterações que não estão no stage area</p></li>
+    <li>git checkout -- "<file name>, < . > ou <file path>" <p> Revertendo alteraçõs que não estão no stage area</p></li>
+    <li>git add "<file name>" </li>
+    <li>git add . <p>- Adicionando todos os arquivos alterados na stage area</p></li>
+    <li>git checkout HEAD -- "<file name>, < . > ou <file path>"<p> Revertendo alterações que estão no stage area</p></li>
+    <li>git commit -m <p>Consolidando todas as alterações do stage area para o projeto</p></li>
+    <li>git commit -a -m <p>Adicionando todas alterações no stage area e consolidando-as no projeto</p></li>
+    <li>git commit --ammend -m <p>Editando commit anterior adicionando mais uma alteração do stage area</p></li>
+    <li>git log <p>Consultando histórico de commits</p></li>
+    <li>git log --pretty=oneline <p>Consultando em uma linha o log de alterações</p></li>
+    <li>git log -p -1 <p>Consultando o ulitmo commit</p></li>
+    <li>git revert "chave do commit" <p>Revert um commit</p></li>
+    <li>git revert HEAD~1 <p>Reverte o ulitmo commit realizado</p></li>
+    <li>git pull</li>
+    <li>git push</li>
+    <li>git checkout</li>
+    <li>git checkout</li>
+    <li>git <p></p></li>
     <li>git </li>
 </ul>
