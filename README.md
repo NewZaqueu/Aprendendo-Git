@@ -18,7 +18,7 @@ GitHub é uma plataforma opensource online onde todos os repositórios podem ser
     <li>Alterado e Salvado</li>
 </ul>
 
-<h2>Lista de Comandos(Em contrução)</h2>
+<h2>Lista de Comandos(Em construção)</h2>
 
 <ul>
     <li>git status <p>Consultar alterações realizadas no projeto que ainda não estão no stage area</p></li>
