@@ -9,6 +9,20 @@
 <p>Git é um sistema de gerenciamento de versão.<br>
 GitHub é uma plataforma opensource online onde todos os repositórios podem ser armazenados tendo sua versão controlada pelo sistema Git de versionamento de códigos.</p>
 
+<h2>Configurando SSH Key</h2>
+
+Para configurar o Git da sua máquina de forma a permitir acesso e edição dos seus reposítórios no GitHub basta usar no seu shell o comando: ssh-keygen
+
+Uma chave de acesso será criada e o endereço do arquivo dela será exibido, bem provável que seja algo como: C:\Users\userName\.sshz\id_rsa
+
+Entre nesse arquivo copie todo o código. No seu GitHub entre em :
+
+Configurações>SSH Keys > New SSH Key
+
+Crie o nome da sua chave, exemplo: Computador Trabalho
+Cole o código da chave e pronto.
+
+Apartir daí seu computador tera acesso libre a sua conta do GitHub.
 
 <h2>Etapas de controle de versionamento</h2>
 
@@ -35,10 +49,4 @@ GitHub é uma plataforma opensource online onde todos os repositórios podem ser
     <li>git log -p -1 <p>Consultando o ulitmo commit</p></li>
     <li>git revert "chave do commit" <p>Revert um commit</p></li>
     <li>git revert HEAD~1 <p>Reverte o ulitmo commit realizado</p></li>
-    <li>git pull</li>
-    <li>git push</li>
-    <li>git checkout</li>
-    <li>git checkout</li>
-    <li>git <p></p></li>
-    <li>git </li>
 </ul>
